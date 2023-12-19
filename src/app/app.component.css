@@ -1,0 +1,32 @@
+/* .chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background-color: #852f2f;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  gap:20px;
+}
+
+.chart-row{
+  display: flex;
+  flex-direction: row;
+
+} */
+
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the charts if they are narrower than the container */
+}
+
+.chart-row {
+  width: 100%; /* Adjust width as needed */
+  margin-bottom: 20px; /* Spacing between chart rows */
+  /* Add any additional styling as required */
+}
+
